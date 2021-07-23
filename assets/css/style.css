@@ -3,10 +3,22 @@
     margin: 0;
 }
 
+body {
+    line-height: 150%;
+}
+
 header {
-    background-color: grey;
+    background-color: rgb(61, 56, 56);
     height: 50px;
-    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
 }
 
 section {
